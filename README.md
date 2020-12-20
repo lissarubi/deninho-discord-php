@@ -34,14 +34,6 @@ responde com muito amor
 
 Cancela alguém por algum motivo aleatório, ou caso não passe nenhum parâmetro, o mundo é cancelado por algum motivo aleatório.
 
-## padrao
-
-Cria um padrão, e quem não seguir o padrão será punido com uma adição á sua lista de quebras de padrão.
-
-## vergonha
-
-lista as pessoas que quebraram o padrão.
-
 ## spin
 
 joga um Spin no cassinho
@@ -49,10 +41,6 @@ joga um Spin no cassinho
 ## roll
 
 joga um roll no casino
-
-## clap
-
-bate palmas pra alguém
 
 # Comandos Automáticos (sem asterico)
 
