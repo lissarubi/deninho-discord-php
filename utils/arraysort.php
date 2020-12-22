@@ -1,8 +1,8 @@
 <?php
-function array_sort($array, $on, $order=SORT_ASC)
+function array_sort($array, $on, $order = SORT_ASC)
 {
-    $new_array = array();
-    $sortable_array = array();
+    $new_array = [];
+    $sortable_array = [];
 
     if (count($array) > 0) {
         foreach ($array as $k => $v) {
@@ -20,10 +20,10 @@ function array_sort($array, $on, $order=SORT_ASC)
         switch ($order) {
             case SORT_ASC:
                 asort($sortable_array);
-            break;
+                break;
             case SORT_DESC:
                 arsort($sortable_array);
-            break;
+                break;
         }
 
         foreach ($sortable_array as $k => $v) {

@@ -1,9 +1,11 @@
 {
-    "repositories": [{
-        "type": "vcs",
-        "url": "https://github.com/teamreflex/DiscordPHP"
-    }],
-    "require": {
-        "team-reflex/discord-php": "dev-master"
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/teamreflex/DiscordPHP"
     }
+  ],
+  "require": {
+    "team-reflex/discord-php": "dev-master"
+  }
 }
